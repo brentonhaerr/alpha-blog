@@ -1,4 +1,4 @@
-$navbar-default-bg: lightgray;
+$navbar-default-bg: #222222;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -19,4 +19,54 @@ $navbar-default-bg: lightgray;
 
 .center {
   text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('april_uprising_cover.jpg');
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbotron h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 80px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-xlg {
+  font-size: 1.7em;
+  background-color: darkred;
+}
+
+.btn-danger:hover {
+  background-color: black;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float:left;
+}
+
+footer ul {
+  float:right;
+  list-style: none;
+  border-left: 1px solid #eaeaea;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
 }
