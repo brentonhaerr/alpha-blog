@@ -1,6 +1,5 @@
 $navbar-default-bg: #222222;
 
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -84,4 +83,15 @@ footer ul li {
 .article-description-title {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
